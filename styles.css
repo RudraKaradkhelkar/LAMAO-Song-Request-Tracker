@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 80vh;
+    width: 85%;
     margin: auto;
 	height:90vh;
     padding: 1em;
@@ -64,7 +64,7 @@ form{
 	display: grid;
 	grid-template-rows: 25% 25% 25%;
 	grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-	grid-row-gap: 0.75em;
+	grid-row-gap: 1em;
     text-align:center;
 }
 h1{
