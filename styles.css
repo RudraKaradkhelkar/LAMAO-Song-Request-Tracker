@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 85%;
+    width: 80vh;
     margin: auto;
 	height:90vh;
     padding: 1em;
@@ -87,6 +87,7 @@ h1,h2,p{
     text-align:center;
     font-size:2em;
     background-color:#0a0a23;
+    color:white;
 }
 #songInput{
 	grid-row: 2/ 3;
@@ -97,6 +98,7 @@ h1,h2,p{
     text-align:center;
     font-size:2em;
     background-color:#0a0a23;
+    color:white;
 }
 #songURL{
 	grid-row: 3/4;
@@ -107,6 +109,7 @@ h1,h2,p{
     text-align:center;
     font-size:2em;
     background-color:#0a0a23;
+    color:white;
 }
 #submitButton{
 	grid-row: 5/5;
