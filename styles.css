@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 60%;
     margin: auto;
 	height:70vh;
     padding: 1em;
@@ -81,6 +81,7 @@ h1,h2,p{
     border-radius: 4px;
     text-align:center;
     font-size:1em;
+    background-color:#0a0a23;
 }
 #songInput{
 	grid-row: 2/ 3;
@@ -90,6 +91,7 @@ h1,h2,p{
     border-radius: 4px;
     text-align:center;
     font-size:1em;
+    background-color:#0a0a23;
 }
 #songURL{
 	grid-row: 3/4;
@@ -99,9 +101,10 @@ h1,h2,p{
     border-radius: 4px;
     text-align:center;
     font-size:1em;
+    background-color:#0a0a23;
 }
 #submitButton{
-	grid-row: 4/5;
+	grid-row: 5/5;
 	grid-column: 4/8;
 	padding: 1em 2em;
     border: none;
