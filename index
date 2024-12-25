@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>LAMAO State Song Request</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>Song Request Tracker</h1>
+			<p><em>Please keep requests limited to 4 minutes</em></p>
+			<form id="songRequestForm" action="https://script.google.com/macros/s/AKfycbyyRtb8EwhWmoea_Pz97IKgWTSXsIC_G0zJbCb6ZR7a5B5TyHqiypwQZirDi8gJ2UZe/exec" method="POST" onsubmit="return false;">
+				<input type="text" id="name" name="Requester Name" placeholder="Enter your name" required> 
+				<input type="text" id="songInput" name="Song Requested" placeholder="Enter song request" required> 
+				<input type="url" id="songURL" name="Link to Song" placeholder="Enter YouTube/Spotify Link" required>
+				<input type="submit" value="Submit" id="submitButton" placeholder="Submit">
+			</form>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
